@@ -16,7 +16,7 @@ func main() {
 
 	part2 := checkPassports(strs, true)
 
-	fmt.Printf("Day 4 Part 1: %d\nDay 4 Part 2: %d\n", part1, part2)
+	fmt.Printf("Day 04, Part 1: %d\nDay 04, Part 2: %d\n", part1, part2)
 }
 
 func checkPassports(lines []string, validate bool) int {

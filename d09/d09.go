@@ -35,7 +35,7 @@ func main() {
 
 	sum := findNumsThatSum(numbers, wrongNumber)
 
-	fmt.Printf("Day 9 Part 1: %d\nDay 9 Part 2: %d\n", wrongNumber, sum)
+	fmt.Printf("Day 09, Part 1: %d\nDay 09, Part 2: %d\n", wrongNumber, sum)
 }
 
 func shift(slice []int, n int) []int {

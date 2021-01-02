@@ -42,5 +42,5 @@ func main() {
 		}
 	}
 
-	fmt.Printf("Day 2 Part 1: %d\nDay 2 Part 2: %d\n", correct1, correct2)
+	fmt.Printf("Day 02, Part 1: %d\nDay 02, Part 2: %d\n", correct1, correct2)
 }

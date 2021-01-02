@@ -24,7 +24,7 @@ func main() {
 		}
 	}
 
-	fmt.Printf("Day 6 Part 1: %d\nDay 6 Part 2: %d\n", anyTotal, allTotal)
+	fmt.Printf("Day 06, Part 1: %d\nDay 06, Part 2: %d\n", anyTotal, allTotal)
 }
 
 func sumGroup(lines []string) (int, int) {

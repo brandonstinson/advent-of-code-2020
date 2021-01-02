@@ -46,7 +46,7 @@ func main() {
 
 	count := countBags(rules, "1 shiny gold")
 
-	fmt.Printf("Day 7, Part 1: %d\nDay 7, Part 2: %d\n", len(canHoldTarget), count)
+	fmt.Printf("Day 07, Part 1: %d\nDay 07, Part 2: %d\n", len(canHoldTarget), count)
 }
 
 func contains(slice []string, str string, start int) bool {

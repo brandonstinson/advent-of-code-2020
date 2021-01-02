@@ -14,8 +14,7 @@ func main() {
 
 	total2 := findThreeNumbersThatTotal(strs, 2020)
 
-	fmt.Printf("Day 1 Part 1: %d\nDay 1 Part 2: %d\n", total1, total2)
-
+	fmt.Printf("Day 01, Part 1: %d\nDay 01, Part 2: %d\n", total1, total2)
 }
 
 func findTwoNumbersThatTotal(strs []string, target int) int {

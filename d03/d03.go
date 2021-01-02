@@ -19,7 +19,7 @@ func main() {
 
 	part2 := part2a * part2b * part2c * part2d * part2e
 
-	fmt.Printf("Day 3 Part 1: %d\nDay 3 Part 2: %d\n", part1, part2)
+	fmt.Printf("Day 03, Part 1: %d\nDay 03, Part 2: %d\n", part1, part2)
 }
 
 func checkSlopes(slopes []string, rightInc int, downInc int) int {

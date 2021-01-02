@@ -33,7 +33,7 @@ func main() {
 		}
 	}
 
-	fmt.Printf("Day 5 Part 1: %v\nDay 5 Part 2: %v\n", highest, myID)
+	fmt.Printf("Day 05, Part 1: %v\nDay 05, Part 2: %v\n", highest, myID)
 }
 
 func getSeatID(bsp string, rows float64, cols float64) float64 {

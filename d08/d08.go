@@ -15,7 +15,7 @@ func main() {
 
 	acc2 := bruteForce(lines)
 
-	fmt.Printf("Day 8 Part 1: %d\nDay 8 Part 2: %d\n", acc1, acc2)
+	fmt.Printf("Day 08, Part 1: %d\nDay 08, Part 2: %d\n", acc1, acc2)
 }
 
 func accumulator(lines []string) (int, int) {
@@ -58,9 +58,7 @@ func bruteForce(lines []string) int {
 					newLines = append(newLines, l)
 				}
 			}
-			fmt.Println(i)
 			acc, lastIndex := accumulator(newLines)
-			fmt.Printf("i: %d, acc: %d, last: %d\n", i, acc, lastIndex)
 			if lastIndex == len(lines) {
 				return acc
 			}
